@@ -3,31 +3,31 @@ const imagesData = [
         "imageUrl": "./Assets/Images/Work/Anime Sensei.png",
         "linkUrl": "https://jlevbury.github.io/get-in-the-repo-shinji/anime.html",
         "githubUrl": "https://github.com/Jlevbury/get-in-the-repo-shinji",
-        "description": "Description: 1"
+        "description": "\"Get in the Repo, Shinji\" is an anime-themed website featuring a curated collection of anime reviews, recommendations, and discussions. Explore the world of anime with engaging content and multimedia elements, and connect with fellow fans in a vibrant community."
     },
     {
         "imageUrl": "./Assets/Images/Work/JavaScript Quiz.png",
         "linkUrl": "https://dominick-d.github.io/JavaScript_Quiz---Challenge_5/",
         "githubUrl": "https://github.com/Dominick-D/JavaScript_Quiz---Challenge_5",
-        "description": "Description: 2"
+        "description": "\"JavaScript Quiz\" is an interactive quiz application designed to test your knowledge of JavaScript. Put your coding skills to the test with challenging questions and see how well you fare."
     },
     {
         "imageUrl": "./Assets/Images/Work/Random Password Generator.png",
         "linkUrl": "https://dominick-d.github.io/Password-Generator/",
         "githubUrl": "https://github.com/Dominick-D/Password-Generator",
-        "description": "Description: 3"
+        "description": "\"Random Password Generator\" is a handy tool for generating strong and secure passwords. With customizable options, you can generate passwords with specific length and character types."
     },
     {
         "imageUrl": "./Assets/Images/Work/Weather App.png",
         "linkUrl": "https://dominick-d.github.io/Weather-2-Go/",
         "githubUrl": "https://github.com/Dominick-D/Weather-2-Go",
-        "description": "Description: 4"
+        "description": "\"Weather-2-Go\" is a weather forecast application that provides current weather information and forecasts for cities worldwide. Stay prepared and plan your activities with accurate weather data, including temperature, humidity, wind speed, and more!"
     },
     {
         "imageUrl": "./Assets/Images/Work/Work Day Scheduler.png",
         "linkUrl": "https://dominick-d.github.io/Workday-Schedule/",
         "githubUrl": "https://github.com/Dominick-D/Workday-Schedule",
-        "description": "Description: 5"
+        "description": "\"Workday Schedule\" is a productivity tool that helps you manage your daily tasks and appointments. Keep track of your schedule and organize your workday effectively. Never miss an important deadline or meeting again with Workday Schedule."
     },
     {
         "imageUrl": "./Assets/Images/placeholder.jpg",
