@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominick D. - Full Stack Student</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/CSS/contactStyle.css">
+    <link rel="stylesheet" href="./Assets/CSS/navbarStyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" id="header-title" href="index.html">
+                        <span class="title is-4">Dominick D.</span>
+                        <span class="subtitle is-6">FULL STACK STUDENT</span>
+                    </a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navMenu">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="navMenu" class="navbar-menu">
+                    <div class="navbar-start">
+                        <!-- The navbar-start section remains empty -->
+                    </div>
+
+                    <div class="navbar-end">
+                        <a class="navbar-item" id="navbar-links" href="index.html">About Me</a>
+                        <a class="navbar-item" id="navbar-links" href="work.html">Work</a>
+                        <a class="navbar-item" id="navbar-links" href="contact.html">Contact</a>
+                        <a class="navbar-item" id="navbar-links" href="#" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </nav>
+            <img class="header-background-image" src="./Assets/Images/bird-head.JPG" alt="Background Image">
+        </div>
+    </header>
+    <main>
+        <section class="section">
+            <nav class="level">
+                <p class="level-item has-text-centered">
+                    <img src="./Assets/Images/Titles/Contact_title.png" alt="" style="height: 15vh;">
+                </p>
+            </nav>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-8">
+                        <div class="card" id="eMail-form">
+                            <div class="card-content">
+                                <form id="contact-form">
+                                    <div class="field">
+                                        <label class="label" for="subject">Subject</label>
+                                        <div class="control">
+                                            <div class="select">
+                                                <select id="subject" class="has-text-centered" required>
+                                                    <option value="">Select a Subject</option>
+                                                    <option value="Support">Support</option>
+                                                    <option value="Feedback">Feedback</option>
+                                                    <option value="Work Opportunity">Work Opportunity</option>
+                                                    <option value="School">School Related</option>
+                                                    <option value="Inquiry">Inquiry</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <label class="label" for="message">Message</label>
+                                        <div class="control">
+                                            <textarea class="textarea" id="message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <div class="control">
+                                            <button class="button" id="eMail-btn" type="submit">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="card" id="self-card">
+                            <div class="card-image image-container">
+                                <figure class="image is-4by3">
+                                    <img src="./Assets/Images/Self.jpg" alt="My Photo" class="my-photo"
+                                        oncontextmenu="return false;" draggable="false">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4">Dominick D.</p>
+                                <p class="subtitle is-6">FULL STACK STUDENT</p>
+                                <p>Feel free to contact me with any inquiries or feedback. I look forward to hearing
+                                    from you!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="./Assets/JS/contactScript.js"></script>
+    <script src="./Assets/JS/navbarScript.js"></script>
+</body>
+
+</html>

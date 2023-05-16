@@ -1,105 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <title>Dominick D. - Full Stack Student</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
+    <link rel="stylesheet" href="./Assets/CSS/indexStyle.css">
+    <link rel="stylesheet" href="./Assets/CSS/navbarStyle.css">
 </head>
 
 <body>
     <header>
-        <h1>Dominick D.</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" id="header-title" href="index.html">
+                        <span class="title is-4">Dominick D.</span>
+                        <span class="subtitle is-6">FULL STACK STUDENT</span>
+                    </a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navMenu">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        
+                    </a>
+                </div>
+                <div id="navMenu" class="navbar-menu">
+                    <div class="navbar-start">
+                        <!-- The navbar-start section remains empty -->
+                    </div>
+                    <div class="navbar-end">
+                        
+                        <a class="navbar-item" id="navbar-links" href="index.html">About Me</a>
+                        <a class="navbar-item" id="navbar-links" href="work.html">Work</a>
+                        <a class="navbar-item" id="navbar-links" href="contact.html">Contact</a>
+                        <a class="navbar-item" id="navbar-links" href="#" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </nav>
+            <img class="header-background-image" src="./Assets/Images/bird-head.JPG" alt="Background Image">
+        </div>
     </header>
-    <div class ="image-wrapper">
-        <img src="./assets/images/Self.jpg" class="self">
-        <section id="post-header-image">
-            <img src="./assets/images/bird-head.JPG" style="max-width: 100%;">
+    <main>
+        <section class="section">
+            <nav class="level">
+                <p class="level-item has-text-centered">
+                  <img src="./Assets/Images/Titles/Aboutme_title.png" alt="" style="height: 15vh;">
+                </p>
+              </nav>
         </section>
-    </div>
-    <section id="about-me" class="about-me"> 
-        <div class="title"><h2>About Me</h2>
-        </div>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea minus voluptatum eius culpa quo nemo, consequatur vero eaque? Fuga hic, amet incidunt dignissimos excepturi perferendis dolorem sed libero delectus quos.
-        </p>
-    </section>
 
-    <section id="work" class="work"> 
-        <div class="title"><h2>Work</h2>
-        </div>
-        <div class="work-wrap">
-            <div class="project-grid">
-                <a href="https://dominick-d.github.io/prework-study-guide/" target="_blank" class="project prework-study-guide">
-                    <div class="content-box">
-                        <h3>Prework</h3>
-                        <p>HTML/CSS/JavaScript</p>
+        <section class="section">
+            <div class="columns">
+                <div class="column is-5">
+                    <p class="aboutme-para">I'm Dominick A. Donnolo, a passionate full-stack web development student at
+                        UCONN's Full Stack Coding Bootcamp. My interest in web development began at a young age while
+                        experimenting with code to enhance computer games. This early curiosity ignited my coding
+                        passion and drove me to pursue a career in this field.
+                        <br><br>
+                        <span id="read-more-placeholder"></span>
+                    <div id="additional-text" class="is-hidden">
+                        As a student, I'm continuously learning and enhancing my skills. I have a strong aptitude for
+                        JavaScript, which I use to add diverse functionality to web pages. To stay up-to-date with
+                        industry trends and best practices, I actively engage in developer forums, consult
+                        documentation, and watch informative videos on YouTube.
+                        <br><br>
+                        When starting web development projects, I meticulously
+                        plan the layout and functionality before diving into the development process. As the project
+                        progresses, I consistently improve and add features. I excel at breaking down challenging or
+                        complex projects into manageable segments, allowing me to effectively and efficiently tackle
+                        each problem.
+                        <br><br>
+                        My passion for web development thrives on the constant challenge and the
+                        opportunity for growth in the industry. In the near future, I aspire to master animations and
+                        create visually stunning web experiences. With my motivation and dedication, I am well on my way
+                        to making a significant impact in the world of web development and design.
+                        <br><br><span id="read-less-placeholder"></span>
                     </div>
-                </a>
-                <a href="https://dominick-d.github.io/C1-Accessibility-Improvements/" target="_blank" class="project horiseon">
-                    <div class="content-box">
-                        <h3>Horiseon</h3>
-                        <p>HTML/CSS Accessibility upgrades</p>
-                    </div>
-                </a>
-        
-                <a href="#" target="_blank" class="project placeholder-1">
-                    <div class="content-box">
-                        <h3>Project 3</h3>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </a>
-                <a href="#" target="_blank" class="project placeholder-2">
-                    <div class="content-box">
-                        <h3>Project 4</h3>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </a>
-                <a href="#" target="_blank" class="project placeholder-3">
-                    <div class="content-box">
-                        <h3>Project 5</h3>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </a>
+                    </p>
+                </div>
+                <div class="column is-6">
+                    <img src="./Assets/Images/Perry.JPG" alt="My dog" oncontextmenu="return false;" draggable="false">
+                    <img src="./Assets/Images/TobyandMax.jpg" alt="My cats" oncontextmenu="return false;"
+                        draggable="false">
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer id="contact-me">
-        <div class="title"><h2>Contact Me</h2></div>
-        <div class="content-wrap">
-            <div id="contact-list">
-                <ul>
-                    <li>
-                        <a href="mailto:dominickdonn@gmail">Email</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Dominick-D" target="_blank">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">LinkedIn</a>
-                    </li>
-                </ul>
+
+        <!-- Add this section after the existing sections -->
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-4">
+                        <div class="card custom-card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    Front End Skills
+                                </p>
+                            </header>
+                            <div class="card-content skill-cards">
+                                <li>JavaScript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <p>Experienced in Bulma and trying react.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="card custom-card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    Back End Skills
+                                </p>
+                            </header>
+                            <div class="card-content skill-cards">
+                                <li>node.js</li>
+                                <p>Just started Back End lessons!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="card custom-card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    General Skills
+                                </p>
+                            </header>
+                            <div class="card-content skill-cards">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
+
+        <section class="hero" style="background-color: #262626;">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <p class="is-size-4" id="progress-bar-title"></p>
+                    <progress id="progress-bar" class="progress" value="0" max="100"
+                        style="font-size: 1.5rem;">0%</progress>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./Assets/JS/indexScript.js"></script>
+    <script src="./Assets/JS/navbarScript.js"></script>
 </body>
 
 </html>
