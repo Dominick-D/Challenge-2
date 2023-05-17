@@ -1,9 +1,11 @@
 # My Portfolio
-
+[Domdonn.me](https://domdonn.me)
 ## Description
 This portfolio is a showcase of my skills as a Full Stack Development student. It's an opportunity for me to express my passion for web development and demonstrate my abilities in a practical, interactive format. The portfolio includes several sections, including an "About Me" section, a "Work" section, and a "Contact" section. As the portfolio continues to evolve alongside my skills and experiences, it serves as a testament to my journey in the world of web development.
 
-## ScreenShots:
+## Screenshots:
+![App Screenshot](./Assets/Images/Portfolio-1.png)
+![App Screenshot](./Assets/Images/Portfolio-2.png)
 
 
 ## Features and Usage
@@ -11,15 +13,17 @@ The portfolio is designed to be user-friendly and responsive, offering a seamles
 
 Key features include:
 
-1. **Responsive Design**: The layout adjusts according to the screen size, ensuring a pleasant viewing experience on both desktop and mobile devices.
+1. **Progress Bar**: The "About Me" section includes a progress bar at the bottom, visualizing the ongoing journey of learning and growth in the field of web development.
 2. **Email Sender**: In the "Contact" section, users can directly send an email for any inquiries or suggestions.
-3. **Progress Bar**: The "About Me" section includes a progress bar at the bottom, visualizing the ongoing journey of learning and growth in the field of web development.
+3. **Responsive Design**: The layout adjusts according to the screen size, ensuring a pleasant viewing experience on both desktop and mobile devices.
+
+
 
 ## Contributing
 As this is a personal project, I am not currently seeking contributions. However, I am open to feedback and suggestions for improvement. If you have ideas or recommendations, please feel free to share.
 
 ## Planned Improvements
-- Move Bulma Burger menu to right side of screen
+- Fix animation for description button on work page
 - Improve cosmetics
 - Make LinkedIn
 
